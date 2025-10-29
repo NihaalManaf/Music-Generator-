@@ -132,8 +132,9 @@ dmypy.json
 *.mid
 *.midi
 
-# Data files
-data/
+# Data files - ignore contents but not the READMEs
+data/**/*
+!data/**/README.md
 output/
 samples/
 models/
